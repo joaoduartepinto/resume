@@ -1,39 +1,29 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Resume', // <title>
+  siteTitle: 'João Pinto Resume', // <title>
   manifestName: 'Resume',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
-  manifestBackgroundColor: '#663399',
-  manifestThemeColor: '#663399',
+  manifestBackgroundColor: '#338199',
+  manifestThemeColor: '#338199',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-resume/`, // This path is subpath of your hosting https://domain/portfolio
-  firstName: 'Anubhav',
-  lastName: 'Srivastava',
+  pathPrefix: `/resume/`, // This path is subpath of your hosting https://domain/portfolio
+  firstName: 'João',
+  lastName: 'Pinto',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/joaoduartepinto',
     },
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
-      url: 'https://linkedin.com/in/theanubhav/',
-    },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      icon: 'fa-facebook-f',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://linkedin.com/in/joaoduartepinto/',
     },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  email: 'joaoduartepinto@outlook.com',
+  phone: '963 673 658',
+  address: 'Vila Nova de Famalicão',
 };
