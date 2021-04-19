@@ -261,7 +261,6 @@ const IndexPage = () => (
                 </div>
             </section>
 
-
             <hr className="m-0"/>
 
             <section
@@ -350,7 +349,7 @@ const IndexPage = () => (
                 <div className="w-100">
                     <h2 className="mb-5">Resume</h2>
                     <p>
-                        <h3>You can grab my resume <a href={downloadFile} download='resume'>here</a>! </h3>
+                        <h3>You can grab my resume <a href={downloadFile} download='resume'>here</a>! <span>📜</span> </h3>
                     </p>
                 </div>
             </section>
