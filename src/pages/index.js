@@ -141,8 +141,8 @@ const IndexPage = () => (
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
                             <h3 className="mb-0">Instituto Superior de Engenharia do Porto</h3>
-                            <div className="subheading mb-3">Postgraduate in Software Development</div>
-                            <div>Computer Science - Web Development Track</div>
+                            <div className="subheading mb-3">Postgraduate in Software Development · switch( ) </div>
+                            <div>SWitCH( ) is a programme for acquiring competencies and skills in IT. SWitCH( ) applies iterative and incremental/agile development processes to provide a solid comprehension and application of software development skills.</div>
                             <p></p>
                             <div className="w-100">
                                 <h3 className="subheading mb-3">Technologies</h3>
@@ -170,6 +170,34 @@ const IndexPage = () => (
                                     <li>
                                         <i className="fa-li fa fa-check text-success"></i>
                                         JUnit
+                                    </li>
+                                    <li>
+                                        <i className="fa-li fa fa-check text-success"></i>
+                                        UML
+                                    </li>
+                                    <li>
+                                        <i className="fa-li fa fa-check text-success"></i>
+                                        Software design patterns and architectural patterns
+                                    </li>
+                                    <li>
+                                        <i className="fa-li fa fa-check text-success"></i>
+                                        DevOps Tools like Git, Jenkins, Sonarqube &amp; Docker
+                                    </li>
+                                    <li>
+                                        <i className="fa-li fa fa-check text-success"></i>
+                                        SQL
+                                    </li>
+                                    <li>
+                                        <i className="fa-li fa fa-check text-success"></i>
+                                        Oracle DBMS
+                                    </li>
+                                    <li>
+                                        <i className="fa-li fa fa-check text-success"></i>
+                                        Linux
+                                    </li>
+                                    <li>
+                                        <i className="fa-li fa fa-check text-success"></i>
+                                        Scrum
                                     </li>
                                 </ul>
                             </div>
