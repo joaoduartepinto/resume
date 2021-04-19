@@ -23,15 +23,14 @@ const IndexPage = () => (
                         <span className="text-primary">{config.lastName}</span>
                     </h1>
                     <div className="subheading mb-5">
-                        {config.address} · {config.phone} ·
-                        <a href={`mailto:${config.email}`}>{config.email}</a>
+                        {config.address} · {config.phone} · <a href={`mailto:${config.email}`}>{config.email}</a>
                     </div>
                     <p className="lead mb-5">
-                        Hi! <span>👋</span>
+                        Hi! <span role='img' aria-label='Hi'>👋</span>
                     </p>
 
                     <p className="lead mb-5">
-                        I am a Software Development Student, who loves what he is learning and wants to develop his
+                        I am a <strong>Software Development Student</strong>, who loves what he is learning and wants to develop his
                         knowledge!
 
                         I'm currently finishing a postgraduate degree in software development at the Instituto Superior
@@ -251,8 +250,8 @@ const IndexPage = () => (
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
                             <h3 className="mb-0">Python para Data Science e Machine Learning</h3>
-                            <div className="subheading mb-3">Pieran Data Inc.</div>
-                            <div>Python for data visualization, analysis, Data Science and Machine Learning</div>
+                            <div className="subheading mb-3">Pieran Data Inc. - Udemy Course</div>
+                            <div>Python for data visualization, analysis and Machine Learning</div>
                         </div>
                         <div className="resume-date text-md-right">
                             <span className="text-primary">2020</span>
@@ -350,7 +349,8 @@ const IndexPage = () => (
                 <div className="w-100">
                     <h2 className="mb-5">Resume</h2>
                     <p>
-                        <h3>You can grab my resume <a href={downloadFile} download='resume'>here</a>! <span>📜</span> </h3>
+                        <h3>You can grab my resume <a href={downloadFile} download='resume'>here</a>!
+                            <span role='img' aria-label='manuscript'>📜</span></h3>
                     </p>
                 </div>
             </section>
