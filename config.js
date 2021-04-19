@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'João Pinto Resume', // <title>
+  siteTitle: 'João Pinto', // <title>
   manifestName: 'Resume',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -9,6 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/resume/`, // This path is subpath of your hosting https://domain/portfolio
   firstName: 'João',
+  secondName: 'Duarte',
   lastName: 'Pinto',
   // social
   socialLinks: [
