@@ -18,8 +18,7 @@ const IndexPage = () => (
             >
                 <div className="w-100">
                     <h1 className="mb-0">
-                        <span className="text-primary">{config.firstName}</span>
-                        {config.secondName}
+                        {config.firstName}
                         <span className="text-primary">{config.lastName}</span>
                     </h1>
                     <div className="subheading mb-5">
@@ -33,7 +32,7 @@ const IndexPage = () => (
                         I am a <strong>Software Development Student</strong>, who loves what he is learning and wants to develop his
                         knowledge!
 
-                        I'm currently finishing a postgraduate degree in software development at the Instituto Superior
+                        I'm currently finishing a postgraduate degree in software development at Instituto Superior
                         de Engenharia do Porto.
                     </p>
                     <div className="social-icons">
@@ -379,22 +378,24 @@ const IndexPage = () => (
 
             <section
                 className="resume-section p-3 p-lg-5 d-flex align-items-center"
-                id="interests"
-            >
+                id="interests">
                 <div className="w-100">
                     <h2 className="mb-5">Interests</h2>
                     <p>
-                        Apart from being a web developer, I enjoy most of my time being
-                        outdoors. In the winter, I am an avid skier and novice ice climber.
-                        During the warmer months here in Colorado, I enjoy mountain biking,
-                        free climbing, and kayaking.
+                        Having spent my youth in a peaceful village at the foothill of <i>Serra da Estrela</i> mountain,
+                        I love to walk outdoors, explore nature, breathe fresh air and bathe in the icy waters
+                        of the streams that come out of the mountains.
                     </p>
-                    <p className="mb-0">
-                        When forced indoors, I follow a number of sci-fi and fantasy genre
-                        movies and television shows, I am an aspiring chef, and I spend a
-                        large amount of my free time exploring the latest technology
-                        advancements in the front-end web development world.
+                    <p>
+                        At home, one of my favorite hobbies is cooking. From traditional Portuguese food, to
+                        pizzas and even sushi.
                     </p>
+                    <p>
+                        I also love animals, I have a cat, called Leia, and a turtle, called Olaf.
+                        <span role='img' aria-label='cat'>🐈</span>
+                         <span role='img' aria-label='turtle'>🐢</span>
+                    </p>
+
                 </div>
             </section>
 
