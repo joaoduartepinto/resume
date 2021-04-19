@@ -16,6 +16,7 @@ export class Sidebar extends Component {
         { content: 'Development', href: 'development'},
         { content: 'Skills', href: 'skills' },
         { content: 'Interests', href: 'interests' },
+        {content: 'Resume', href: 'resume'}
         //{ content: 'Awards', href: 'awards' },
       ],
       isCollapsed: true,
