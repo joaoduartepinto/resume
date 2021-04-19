@@ -143,6 +143,36 @@ const IndexPage = () => (
                             <h3 className="mb-0">Instituto Superior de Engenharia do Porto</h3>
                             <div className="subheading mb-3">Postgraduate in Software Development</div>
                             <div>Computer Science - Web Development Track</div>
+                            <p></p>
+                            <div className="w-100">
+                                <h3 className="subheading mb-3">Technologies</h3>
+                                <ul className="fa-ul mb-0">
+                                    <li>
+                                        <i className="fa-li fa fa-check text-success"></i>
+                                        Java
+                                    </li>
+                                    <li>
+                                        <i className="fa-li fa fa-check text-success"></i>
+                                        Spring
+                                    </li>
+                                    <li>
+                                        <i className="fa-li fa fa-check text-success"></i>
+                                        Javascript
+                                    </li>
+                                    <li>
+                                        <i className="fa-li fa fa-check text-success"></i>
+                                        TypeScript
+                                    </li>
+                                    <li>
+                                        <i className="fa-li fa fa-check text-success"></i>
+                                        React.js
+                                    </li>
+                                    <li>
+                                        <i className="fa-li fa fa-check text-success"></i>
+                                        JUnit
+                                    </li>
+                                </ul>
+                            </div>
                             {/*<p>GPA: 3.23</p>*/}
                         </div>
                         <div className="resume-date text-md-right">
@@ -349,7 +379,7 @@ const IndexPage = () => (
                 <div className="w-100">
                     <h2 className="mb-5">Resume</h2>
                     <p>
-                        <h3>You can grab my resume <a href={downloadFile} download='resume'>here</a>!
+                        <h3>You can grab my resume <a href={downloadFile} download='resume' >here</a>!
                             <span role='img' aria-label='manuscript'>📜</span></h3>
                     </p>
                 </div>
