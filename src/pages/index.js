@@ -4,7 +4,6 @@ import Layout from '../components/Layout';
 
 import downloadFile from '/static/resume/resume.pdf'
 
-// import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
 
@@ -476,7 +475,7 @@ const IndexPage = () => (
                 <div className="w-100">
                     <h2 className="mb-4">Resume</h2>
                     <p>
-                        <h3>You can grab my resume <a href={downloadFile} download='resume'>here</a>!
+                        <h3>You can grab my <a href={downloadFile} download='resume'>resume</a>!
                             <span role='img' aria-label='manuscript'>📜</span></h3>
                     </p>
                 </div>
