@@ -55,33 +55,60 @@ const IndexPage = () => (
                 className="resume-section p-3 p-lg-5 d-flex align-items-center"
                 id="path">
                 <div className="w-100">
-                    <h2 className="mb-5">Path</h2>
+                    <h2 className="mb-4">Path</h2>
+
+                    <h3 className="mb-3">What brought me here</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel commodo dui. Sed dictum mollis nisi ac auctor. Sed posuere volutpat enim a auctor. Sed convallis justo at tellus laoreet porta. Quisque cursus purus quam, vel rhoncus erat finibus vitae. Fusce eget porta felis, id mattis nunc. Sed id luctus massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec condimentum efficitur volutpat. In interdum, risus a sollicitudin interdum, nibh ex finibus libero, sed laoreet mi nulla ac odio. Aenean vitae odio facilisis mauris porta ullamcorper. Nulla nec sapien hendrerit, imperdiet dui quis, posuere ipsum. Maecenas.
+                        I'm <strong>M.Sc. in Physiotherapy</strong> from Escola Superior de Saúde do Porto - IPP, degree
+                        obtained in
+                        2020. During my academic and professional career as a Physiotherapist, I was part of a <i>Primeira
+                        Liga</i> team, I was coordinator of the Department of Youth Physiotherapy, I worked in a private
+                        office, I did several presentations and published a <a
+                        href="https://doi.org/10.23911/FIFA11plus_2021_mar">scientific article</a>.
+                    </p>
+
+                    <h3 className="mb-3">The change</h3>
+                    <p>
+                        The change to the IT area arises from my interest, and from my personal and
+                        professional goal to work in the area of <strong>Software Development</strong>. This interest
+                        was
+                        appearing over the years, in which I personally carried out some projects.
+
+                        So I decided it was time to make a big change in my life, leave
+                        completely Physiotherapy and enter a <strong>postgraduate course in Software
+                        Development</strong>,
+                        chasing my dream!
+                    </p>
+
+                    <h3 className="mb-3">Future</h3>
+                    <p>
+                        My <strong>future goals</strong> will be to acquire more <strong>knowledge</strong> and <strong>experience</strong>, in order to increase my
+                        competence, as I believe that only with constant and quality learning can we differentiate
+                        ourselves as professionals.
                     </p>
 
                     <br/>
 
-                    <div className ="resume-item">
-                    <div className="resume-content float-left" style={{paddingRight : '40px'}}>
-                        <h4 className="mb-0">Education</h4>
-                        <br/>
-                        <h5 className="mb-0">Instituto Politécnico de Castelo Branco</h5>
-                        <div className="subheading mb-3">Degree in Physiotherapy</div>
+                    <div className="resume-item">
+                        <div className="resume-content float-left" style={{paddingRight: '40px'}}>
+                            <h4 className="mb-0">Education</h4>
+                            <br/>
+                            <h5 className="mb-0">Instituto Politécnico de Castelo Branco</h5>
+                            <div className="subheading mb-3">Degree in Physiotherapy</div>
 
-                        <h5 className="mb-0">Instituto Politécnico do Porto</h5>
-                        <div className="subheading mb-3">Master's degree in Physiotherapy</div>
-                    </div>
+                            <h5 className="mb-0">Instituto Politécnico do Porto</h5>
+                            <div className="subheading mb-3">Master's degree in Physiotherapy</div>
+                        </div>
 
-                    <div className="resume-content">
-                        <h4 className="mb-0">Work Experience</h4>
-                        <br/>
-                        <h5 className="mb-0">Sporting Clube de Braga</h5>
-                        <div className="subheading mb-3">Physiotherapist</div>
+                        <div className="resume-content">
+                            <h4 className="mb-0">Work Experience</h4>
+                            <br/>
+                            <h5 className="mb-0">Sporting Clube de Braga</h5>
+                            <div className="subheading mb-3">Physiotherapist</div>
 
-                        <h5 className="mb-0">Gil Vicente FC</h5>
-                        <div className="subheading mb-3">Physiotherapist</div>
-                    </div>
+                            <h5 className="mb-0">Gil Vicente FC</h5>
+                            <div className="subheading mb-3">Physiotherapist</div>
+                        </div>
 
                     </div>
 
@@ -173,7 +200,7 @@ const IndexPage = () => (
                 id="education"
             >
                 <div className="w-100">
-                    <h2 className="mb-5">Education</h2>
+                    <h2 className="mb-4">Education</h2>
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
@@ -258,7 +285,7 @@ const IndexPage = () => (
                 id="development"
             >
                 <div className="w-100">
-                    <h2 className="mb-5">Development</h2>
+                    <h2 className="mb-4">Development</h2>
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
@@ -366,7 +393,7 @@ const IndexPage = () => (
                 id="skills"
             >
                 <div className="w-100">
-                    <h2 className="mb-5">Skills</h2>
+                    <h2 className="mb-4">Skills</h2>
 
                     <div className="subheading mb-3">
                         Programming Languages &amp; Tools
@@ -421,7 +448,7 @@ const IndexPage = () => (
                 className="resume-section p-3 p-lg-5 d-flex align-items-center"
                 id="interests">
                 <div className="w-100">
-                    <h2 className="mb-5">Interests</h2>
+                    <h2 className="mb-4">Interests</h2>
                     <p>
                         Having spent my youth in a peaceful village at the foothill of <i>Serra da Estrela</i> mountain,
                         I love to walk outdoors, explore nature, breathe fresh air and bathe in the icy waters
@@ -447,7 +474,7 @@ const IndexPage = () => (
                 id="resume"
             >
                 <div className="w-100">
-                    <h2 className="mb-5">Resume</h2>
+                    <h2 className="mb-4">Resume</h2>
                     <p>
                         <h3>You can grab my resume <a href={downloadFile} download='resume'>here</a>!
                             <span role='img' aria-label='manuscript'>📜</span></h3>
