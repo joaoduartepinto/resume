@@ -29,7 +29,8 @@ const IndexPage = () => (
                     </p>
 
                     <p className="lead mb-5">
-                        I am a <strong>Software Development Student</strong>, who loves what he is learning and wants to develop his
+                        I am a <strong>Software Development Student</strong>, who loves what he is learning and wants to
+                        develop his
                         knowledge!
 
                         I'm currently finishing a postgraduate degree in software development at Instituto Superior
@@ -49,6 +50,43 @@ const IndexPage = () => (
             </section>
 
             <hr className="m-0"/>
+
+            <section
+                className="resume-section p-3 p-lg-5 d-flex align-items-center"
+                id="path">
+                <div className="w-100">
+                    <h2 className="mb-5">Path</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel commodo dui. Sed dictum mollis nisi ac auctor. Sed posuere volutpat enim a auctor. Sed convallis justo at tellus laoreet porta. Quisque cursus purus quam, vel rhoncus erat finibus vitae. Fusce eget porta felis, id mattis nunc. Sed id luctus massa. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec condimentum efficitur volutpat. In interdum, risus a sollicitudin interdum, nibh ex finibus libero, sed laoreet mi nulla ac odio. Aenean vitae odio facilisis mauris porta ullamcorper. Nulla nec sapien hendrerit, imperdiet dui quis, posuere ipsum. Maecenas.
+                    </p>
+
+                    <br/>
+
+                    <div className ="resume-item">
+                    <div className="resume-content float-left" style={{paddingRight : '40px'}}>
+                        <h4 className="mb-0">Education</h4>
+                        <br/>
+                        <h5 className="mb-0">Instituto Politécnico de Castelo Branco</h5>
+                        <div className="subheading mb-3">Degree in Physiotherapy</div>
+
+                        <h5 className="mb-0">Instituto Politécnico do Porto</h5>
+                        <div className="subheading mb-3">Master's degree in Physiotherapy</div>
+                    </div>
+
+                    <div className="resume-content">
+                        <h4 className="mb-0">Work Experience</h4>
+                        <br/>
+                        <h5 className="mb-0">Sporting Clube de Braga</h5>
+                        <div className="subheading mb-3">Physiotherapist</div>
+
+                        <h5 className="mb-0">Gil Vicente FC</h5>
+                        <div className="subheading mb-3">Physiotherapist</div>
+                    </div>
+
+                    </div>
+
+                </div>
+            </section>
 
             {/*
       <section
@@ -140,8 +178,11 @@ const IndexPage = () => (
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
                             <h3 className="mb-0">Instituto Superior de Engenharia do Porto</h3>
-                            <div className="subheading mb-3">Postgraduate in Software Development · switch( ) </div>
-                            <div>SWitCH( ) is a programme for acquiring competencies and skills in IT. SWitCH( ) applies iterative and incremental/agile development processes to provide a solid comprehension and application of software development skills.</div>
+                            <div className="subheading mb-3">Postgraduate in Software Development · switch( )</div>
+                            <div>SWitCH( ) is a programme for acquiring competencies and skills in IT. SWitCH( ) applies
+                                iterative and incremental/agile development processes to provide a solid comprehension
+                                and application of software development skills.
+                            </div>
                             <p></p>
                             <div className="w-100">
                                 <h3 className="subheading mb-3">Technologies</h3>
@@ -393,7 +434,7 @@ const IndexPage = () => (
                     <p>
                         I also love animals, I have a cat, called Leia, and a turtle, called Olaf.
                         <span role='img' aria-label='cat'>🐈</span>
-                         <span role='img' aria-label='turtle'>🐢</span>
+                        <span role='img' aria-label='turtle'>🐢</span>
                     </p>
 
                 </div>
@@ -408,7 +449,7 @@ const IndexPage = () => (
                 <div className="w-100">
                     <h2 className="mb-5">Resume</h2>
                     <p>
-                        <h3>You can grab my resume <a href={downloadFile} download='resume' >here</a>!
+                        <h3>You can grab my resume <a href={downloadFile} download='resume'>here</a>!
                             <span role='img' aria-label='manuscript'>📜</span></h3>
                     </p>
                 </div>
