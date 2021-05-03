@@ -68,20 +68,20 @@ const IndexPage = () => (
 
                     <h3 className="mb-3">The change</h3>
                     <p>
-                        The change to the IT area arises from my interest, and from my personal and
-                        professional goal to work in the area of <strong>Software Development</strong>. This interest
-                        was
-                        appearing over the years, in which I personally carried out some projects.
+                        The change to the IT area arose from my interest, and from my personal and
+                        professional goal to work in <strong>Software Development</strong>. The interest
+                        appeared over the years, in which I personally carried out some projects.
 
-                        So I decided it was time to make a big change in my life, leave
-                        completely Physiotherapy and enter a <strong>postgraduate course in Software
+                        So I decided it was time to make a big change in my life, completely leave
+                        Physiotherapy and enter a <strong>postgraduate course in Software
                         Development</strong>,
                         chasing my dream!
                     </p>
 
                     <h3 className="mb-3">Future</h3>
                     <p>
-                        My <strong>future goals</strong> will be to acquire more <strong>knowledge</strong> and <strong>experience</strong>, in order to increase my
+                        My <strong>future goals</strong> is to acquire more <strong>knowledge</strong> and <
+                        strong>experience</strong>, in order to increase my
                         competence, as I believe that only with constant and quality learning can we differentiate
                         ourselves as professionals.
                     </p>
