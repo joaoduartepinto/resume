@@ -23,6 +23,11 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://linkedin.com/in/joaoduartepinto/',
     },
+    {
+      icon: 'fa-medium',
+      name: 'Medium',
+      url: 'https://joaoduartepinto.medium.com',
+    },
   ],
   email: 'joaoduartepinto@outlook.com',
   phone: '963 673 658',
