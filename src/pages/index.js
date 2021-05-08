@@ -408,6 +408,12 @@ const IndexPage = () => (
                             <i className="fab fa-git-alt"></i>
                         </li>
                         <li className="list-inline-item">
+                            <i className="fab fa-jenkins"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i className="fab fa-docker"></i>
+                        </li>
+                        <li className="list-inline-item">
                             <i className="fab fa-github"></i>
                         </li>
                         <li className="list-inline-item">
@@ -422,7 +428,11 @@ const IndexPage = () => (
                     <ul className="fa-ul mb-0">
                         <li>
                             <i className="fa-li fa fa-check"></i>
-                            Basic Java Spring Framework
+                            Java Spring Framework
+                        </li>
+                        <li>
+                            <i className="fa-li fa fa-check"></i>
+                            React.js
                         </li>
                         <li>
                             <i className="fa-li fa fa-check"></i>

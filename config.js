@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'João Pinto', // <title>
-  manifestName: 'Resume',
+  manifestName: 'João Pinto',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#338199',
