@@ -28,11 +28,11 @@ const IndexPage = () => (
                     </p>
 
                     <p className="lead mb-5">
-                        I am a <strong>Software Development Student</strong>, who loves what he is learning and wants to
+                        I am a <strong>Software Developer</strong>, who loves what he does and wants to
                         develop his
                         knowledge!
 
-                        I'm currently finishing a postgraduate degree in software development at Instituto Superior
+                        I just finished a postgraduate degree in software development at Instituto Superior
                         de Engenharia do Porto.
                     </p>
                     <div className="social-icons">
@@ -285,6 +285,31 @@ const IndexPage = () => (
             >
                 <div className="w-100">
                     <h2 className="mb-4">Development</h2>
+
+                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div className="resume-content">
+                            <h3 className="mb-0">Spring-React Week</h3>
+                            <div className="subheading mb-3">Nélio Muniz Alves - DevSuperior</div>
+                            <div>Development of a backend application in Java with Spring Boot, and a frontend
+                                application in TypeScript with ReactJS.
+                            </div>
+                        </div>
+                        <div className="resume-date text-md-right">
+                            <span className="text-primary">2021</span>
+                        </div>
+                    </div>
+
+                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div className="resume-content">
+                            <h3 className="mb-0">Maven for DevOps Engineers</h3>
+                            <div className="subheading mb-3">Valaxy Technologies - Udemy Course</div>
+                            <div>Maven seen from the point of view of the DevOps Engineer.
+                            </div>
+                        </div>
+                        <div className="resume-date text-md-right">
+                            <span className="text-primary">2021</span>
+                        </div>
+                    </div>
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
