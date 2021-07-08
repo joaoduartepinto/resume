@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import downloadFile from '/static/resume/resume.pdf'
+import timeline from '/static/resume/timeline.pdf'
 
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
@@ -82,7 +83,7 @@ const IndexPage = () => (
                     <p>
                         My <strong>future goals</strong> is to acquire more <strong>knowledge</strong> and <
                         strong>experience</strong>, in order to increase my
-                        competence, as I believe that only with constant and quality learning can we differentiate
+                        competence, as I believe that with constant and quality learning we can differentiate
                         ourselves as professionals.
                     </p>
 
@@ -510,7 +511,7 @@ const IndexPage = () => (
                 <div className="w-100">
                     <h2 className="mb-4">Resume</h2>
                     <p>
-                        <h3>You can grab my <a href={downloadFile} download='resume'>resume</a>!
+                        <h3>You can grab my <a href={downloadFile} download='resume'>resume</a> and <a href={timeline} download='timeline'>timeline</a>!
                             <span role='img' aria-label='manuscript'>📜</span></h3>
                     </p>
                 </div>
