@@ -31,5 +31,5 @@ module.exports = {
   ],
   email: 'joaoduartepinto@outlook.com',
   phone: '963 673 658',
-  address: 'Vila Nova de Famalicão',
+  address: 'Covilhã',
 };

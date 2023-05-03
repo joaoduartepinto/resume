@@ -3,7 +3,6 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import downloadFile from '/static/resume/resume.pdf'
-import timeline from '/static/resume/timeline.pdf'
 
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
@@ -29,12 +28,10 @@ const IndexPage = () => (
                     </p>
 
                     <p className="lead mb-5">
-                        I am a <strong>Software Developer</strong>, who loves what he does and wants to
-                        develop his
-                        knowledge!
+                        I'm a <strong>Software Engineer</strong>, with experience in software engineering in test.
 
-                        I just finished a postgraduate degree in software development at Instituto Superior
-                        de Engenharia do Porto.
+                        I'm a lifelong learner, passionate about exploring and adopting new technologies to
+                        enhance my skills and knowledge in the field of software development.
                     </p>
                     <div className="social-icons">
                         {config.socialLinks.map(social => {
@@ -58,7 +55,7 @@ const IndexPage = () => (
                     <h2 className="mb-4">Path</h2>
 
                     <h3 className="mb-3">What brought me here</h3>
-                    <p>
+                    <p className="text-justify">
                         I'm <strong>M.Sc. in Physiotherapy</strong> from Escola Superior de Saúde do Porto - IPP, degree
                         obtained in
                         2020. During my academic and professional career as a Physiotherapist, I was part of a <i>Primeira
@@ -68,7 +65,7 @@ const IndexPage = () => (
                     </p>
 
                     <h3 className="mb-3">The change</h3>
-                    <p>
+                    <p className="text-justify">
                         The change to the IT area arose from my interest, and from my personal and
                         professional goal to work in <strong>Software Development</strong>. The interest
                         appeared over the years, in which I personally carried out some projects.
@@ -79,16 +76,8 @@ const IndexPage = () => (
                         chasing my dream!
                     </p>
 
-                    <h3 className="mb-3">Future</h3>
-                    <p>
-                        My <strong>future goals</strong> is to acquire more <strong>knowledge</strong> and <
-                        strong>experience</strong>, in order to increase my
-                        competence, as I believe that with constant and quality learning we can differentiate
-                        ourselves as professionals.
-                    </p>
-
                     <br/>
-
+                    <br/>
                     <div className="resume-item">
                         <div className="resume-content float-left" style={{paddingRight: '40px'}}>
                             <h4 className="mb-0">Education</h4>
@@ -115,83 +104,129 @@ const IndexPage = () => (
                 </div>
             </section>
 
-            {/*
-      <section
-        className="resume-section p-3 p-lg-5 d-flex justify-content-center"
-        id="experience"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Experience</h2>
+            <section
+                className="resume-section p-3 p-lg-5 d-flex justify-content-center"
+                id="experience"
+            >
+                <div className="w-100">
+                    <h2 className="mb-5">Experience</h2>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
-              <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
-            </div>
-          </div>
+                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div className="resume-content">
+                            <h3 className="mb-0">Software Engineer in Test</h3>
+                            <h3 className="mb-0">Associate Software Engineer in Test</h3>
+                            <div className="subheading mb-3">Feedzai</div>
+                            <p className="text-justify">
+                                I have played a vital role in enhancing the quality of our software.
+                                My focus has been on creating a seamless developer experience by designing and
+                                implementing efficient
+                                tools and processes that enable faster and more effective software development resulting
+                                in increased
+                                productivity and faster time-to-market for new features.
+                                <br/>
+                                My responsibilities included test automation, which involves designing and maintaining
+                                automated
+                                tests to ensure that our software meets the highest standards of quality. I've used
+                                automated
+                                testing frameworks such as Cypress and developed scripts to automate testing processes.
+                                I've also been involved in DevOps practices, where I've designed and developed
+                                scripts
+                                and tools to automate deployment and testing processes.
+                                <br/>
+                                In addition to my contributions to software testing, I've also played a role in
+                                backend development
+                                in which I've used Python (Django), Postgresql, and Liquibase to design and
+                                develop backend systems.
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
-              <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
-            </div>
-          </div>
+                            </p>
+                        </div>
+                        <div className="resume-date text-md-right">
+                            <span className="text-primary">May 2023 - Present</span>
+                            <br/>
+                            <span className="text-primary">September 2021 - April 2023</span>
+                        </div>
+                    </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
-            </div>
-          </div>
+                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div className="resume-content">
+                            <h3 className="mb-0">Software Engineer Intern</h3>
+                            <div className="subheading mb-3">Feedzai</div>
+                            <p className="text-justify">
+                                Jenkins builds as Code - My primary responsibility was to analyze the existing
+                                Continuous Integration (CI) pipelines and identify ways to improve their maintenance and
+                                scalability.
+                                To accomplish this, I collaborated with the senior developers and DevOps engineers to
+                                understand the
+                                current CI processes and identify areas for improvement. The result of this project was
+                                a proof of concept in how could we move to pipelines as code. </p>
+                        </div>
+                        <div className="resume-date text-md-right">
+                            <span className="text-primary">July 2021 - August 2021</span>
+                        </div>
+                    </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
-            </div>
-          </div>
-        </div>
-      </section>*/}
+                </div>
+            </section>
+
+            <section
+                className="resume-section p-3 p-lg-5 d-flex justify-content-center"
+                id="testimonials"
+            >
+                <div className="w-100">
+                    <h2 className="mb-5">Testimonials</h2>
+
+                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div className="resume-content">
+
+                            <p className="text-justify font-italic">
+                                "You are curious, always eager to learn new things, you like doing things the right way.
+                                You take ownership of your tasks and you deliver with quality."
+                            </p>
+                            <div className="subheading mb-4">- coworker</div>
+                        </div>
+                    </div>
+
+                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div className="resume-content">
+
+                            <p className="text-justify font-italic">
+                                "You embody all of Company principles, but I think 'Raise the bar' stands out as
+                                you're constantly trying to improve the quality of your work, either by embracing new
+                                technologies, expanding the reach of the tests or implementing changes to make everyone
+                                else's work easier."
+                            </p>
+                            <div className="subheading mb-4">- coworker</div>
+                        </div>
+                    </div>
+
+                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div className="resume-content">
+
+                            <p className="text-justify font-italic">
+                                "João has a very direct approach to the problems and is able to think on them and came
+                                up with solutions without rambling on unnecessary stuff."
+                            </p>
+                            <div className="subheading mb-4">- manager</div>
+                        </div>
+                    </div>
+
+                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-3">
+                        <div className="resume-content">
+
+                            <p className="text-justify font-italic">
+                                "João is very hardworking and is always willing to work with everyone and to help the
+                                team. He is always finding new ways of improving internal processes to make them more
+                                efficient. Additionally, he is always willing to improve and to learn new things. This
+                                is a great attitude that, in turn, also improves his performance and the team's
+                                performance as well."
+                            </p>
+                            <div className="subheading mb-4">- coworker</div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
 
             <hr className="m-0"/>
 
@@ -271,7 +306,7 @@ const IndexPage = () => (
                             {/*<p>GPA: 3.23</p>*/}
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">September 2020 - Present</span>
+                            <span className="text-primary">September 2020 - June 2021</span>
                         </div>
                     </div>
 
@@ -289,124 +324,53 @@ const IndexPage = () => (
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">Spring-React Week</h3>
-                            <div className="subheading mb-3">Nélio Muniz Alves - DevSuperior</div>
-                            <div>Development of a backend application in Java with Spring Boot, and a frontend
-                                application in TypeScript with ReactJS.
+                            <h3 className="mb-0">TDD & BDD - Design through Testing</h3>
+                            <div className="subheading mb-3">Dave Farley</div>
+                            <div className="text-justify">Comprehensive guide to the Test-Driven Development (TDD) and
+                                Behavior-Driven
+                                Development (BDD) approaches in software development. The course covers the fundamental
+                                principles of TDD and BDD, including the importance of automated testing and how to
+                                write effective tests. It also provides practical techniques for applying TDD and BDD to
+                                real-world projects, including continuous integration and deployment.
                             </div>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">2021</span>
+                            <span className="text-primary">2023-02 - Present</span>
                         </div>
                     </div>
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">Maven for DevOps Engineers</h3>
-                            <div className="subheading mb-3">Valaxy Technologies - Udemy Course</div>
-                            <div>Maven seen from the point of view of the DevOps Engineer.
+                            <h3 className="mb-0">Certified ISTQB® Foundational Level (CTFL)</h3>
+                            <div className="subheading mb-3">ISTQB®</div>
+                            <div className="text-justify">Globally recognized software testing certification that
+                                provides a standard understanding of software testing principles, techniques, and
+                                processes. It covers topics such as the fundamentals of testing, testing throughout the
+                                software life cycle, static techniques, test design techniques, test management and
+                                tools.
                             </div>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">2021</span>
+                            <span className="text-primary">2023-03</span>
                         </div>
                     </div>
 
                     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div className="resume-content">
-                            <h3 className="mb-0">SPRING FRAMEWORK FOR BEGINNERS WITH SPRING BOOT</h3>
-                            <div className="subheading mb-3">Navin Reddy - Udemy Course</div>
-                            <div>This course offers hands-on experience building Spring Framework applications using
-                                Spring Boot.
+                            <h3 className="mb-0">English B1</h3>
+                            <div className="subheading mb-3">Faculdade de Letras da Universidade do Porto</div>
+                            <div className="text-justify">I have completed both the B1.1 and B1.2 levels of English
+                                courses offered by Faculdade de Letras do Porto. These courses have provided me with
+                                a solid foundation in English grammar, vocabulary, and conversation skills. I have
+                                developed the ability to understand and communicate effectively in a variety of
+                                contexts, including professional settings.
                             </div>
                         </div>
                         <div className="resume-date text-md-right">
-                            <span className="text-primary">2021</span>
+                            <span className="text-primary">2021 - 2022</span>
                         </div>
                     </div>
 
-                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div className="resume-content">
-                            <h3 className="mb-0">JUNIT 5, MOCKITO, POWERMOCK, TDD, BDD & ATTD</h3>
-                            <div className="subheading mb-3">Andrii Piatakha - Udemy Course</div>
-                            <div>Unit testing with test driven development, behavior-driven development and acceptance
-                                test driven development.
-                            </div>
-                        </div>
-                        <div className="resume-date text-md-right">
-                            <span className="text-primary">2021</span>
-                        </div>
-                    </div>
-
-                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div className="resume-content">
-                            <h3 className="mb-0">COMPLETE MODERN JAVASCRIPT FIREBASE BOOTCAMP THE BEGINNER</h3>
-                            <div className="subheading mb-3">Kim Chen - Udemy Course</div>
-                            <div>Complete Modern JavaScript BootCamp from the beginning starts from scratch and builds
-                                up your knowledge of the JavaScript language.
-                            </div>
-                        </div>
-                        <div className="resume-date text-md-right">
-                            <span className="text-primary">2021</span>
-                        </div>
-                    </div>
-
-                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div className="resume-content">
-                            <h3 className="mb-0">JAVA COLLECTIONS FRAMEWORK + GENERICS, LAMBDAS & STREAM API</h3>
-                            <div className="subheading mb-3">Learn IT University - Udemy Course</div>
-                            <div>This course offered a deep view of Java Collections Framework. As a extra, generics,
-                                lambda funciotions and Stream API were also addressed.
-                            </div>
-                        </div>
-                        <div className="resume-date text-md-right">
-                            <span className="text-primary">2021</span>
-                        </div>
-                    </div>
-
-                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div className="resume-content">
-                            <h3 className="mb-0">Build Pro Websites From Scratch with HTLM, CSS & SASS</h3>
-                            <div className="subheading mb-3">Happy Coding For Everyone - Udemy Course</div>
-                            <div>HTML, CSS & SASS with real world project examples from scratch.</div>
-                        </div>
-                        <div className="resume-date text-md-right">
-                            <span className="text-primary">2021</span>
-                        </div>
-                    </div>
-
-                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div className="resume-content">
-                            <h3 className="mb-0">GIT FROM BASICS TO ADVANCED: PRACTICAL GUIDE FOR DEVELOPERS</h3>
-                            <div className="subheading mb-3">Learn IT University - Udemy Course</div>
-                            <div>How to track changes with help of Git, basics to advanced operations.</div>
-                        </div>
-                        <div className="resume-date text-md-right">
-                            <span className="text-primary">2020</span>
-                        </div>
-                    </div>
-
-                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div className="resume-content">
-                            <h3 className="mb-0">SQL Course</h3>
-                            <div className="subheading mb-3">SOLO LEARN</div>
-                            <div>Basic SQL.</div>
-                        </div>
-                        <div className="resume-date text-md-right">
-                            <span className="text-primary">2020</span>
-                        </div>
-                    </div>
-
-                    <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div className="resume-content">
-                            <h3 className="mb-0">Python para Data Science e Machine Learning</h3>
-                            <div className="subheading mb-3">Pieran Data Inc. - Udemy Course</div>
-                            <div>Python for data visualization, analysis and Machine Learning</div>
-                        </div>
-                        <div className="resume-date text-md-right">
-                            <span className="text-primary">2020</span>
-                        </div>
-                    </div>
 
                 </div>
             </section>
@@ -425,10 +389,16 @@ const IndexPage = () => (
                     </div>
                     <ul className="list-inline dev-icons">
                         <li className="list-inline-item">
+                            <i className="fab fa-js-square"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i className="fab fa-python"></i>
+                        </li>
+                        <li className="list-inline-item">
                             <i className="fab fa-java"></i>
                         </li>
                         <li className="list-inline-item">
-                            <i className="fab fa-js-square"></i>
+                            <i className="fa fa-terminal"></i>
                         </li>
                         <li className="list-inline-item">
                             <i className="fab fa-git-alt"></i>
@@ -440,18 +410,34 @@ const IndexPage = () => (
                             <i className="fab fa-docker"></i>
                         </li>
                         <li className="list-inline-item">
+                            <i className="fab fa-aws"></i>
+                        </li>
+                        <li className="list-inline-item">
+                            <i className="fab fa-gitlab"></i>
+                        </li>
+                        <li className="list-inline-item">
                             <i className="fab fa-github"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i className="fab fa-bitbucket"></i>
-                        </li>
-                        <li className="list-inline-item">
-                            <i className="fab fa-trello"></i>
                         </li>
                     </ul>
 
                     <div className="subheading mb-3">Plus</div>
                     <ul className="fa-ul mb-0">
+                        <li>
+                            <i className="fa-li fa fa-check"></i>
+                            Cypress
+                        </li>
+                        <li>
+                            <i className="fa-li fa fa-check"></i>
+                            Anisble
+                        </li>
+                        <li>
+                            <i className="fa-li fa fa-check"></i>
+                            Maven
+                        </li>
+                        <li>
+                            <i className="fa-li fa fa-check"></i>
+                            NPM
+                        </li>
                         <li>
                             <i className="fa-li fa fa-check"></i>
                             Java Spring Framework
@@ -484,17 +470,17 @@ const IndexPage = () => (
                 id="interests">
                 <div className="w-100">
                     <h2 className="mb-4">Interests</h2>
-                    <p>
+                    <p className="text-justify">
                         Having spent my youth in a peaceful village at the foothill of <i>Serra da Estrela</i> mountain,
                         I love to walk outdoors, explore nature, breathe fresh air and bathe in the icy waters
                         of the streams that come out of the mountains.
                     </p>
-                    <p>
+                    <p className="text-justify">
                         At home, one of my favorite hobbies is cooking. From traditional Portuguese food, to
                         pizzas and even sushi.
                     </p>
-                    <p>
-                        I also love animals, I have a cat, called Leia, and a turtle, called Olaf.
+                    <p className="text-justify">
+                        I also love animals, I have two cats, called Leia and India, and a turtle, called Olaf.
                         <span role='img' aria-label='cat'>🐈</span>
                         <span role='img' aria-label='turtle'>🐢</span>
                     </p>
@@ -511,7 +497,7 @@ const IndexPage = () => (
                 <div className="w-100">
                     <h2 className="mb-4">Resume</h2>
                     <p>
-                        <h3>You can grab my <a href={downloadFile} download='resume'>resume</a> and <a href={timeline} download='timeline'>timeline</a>!
+                        <h3>You can grab my <a href={downloadFile} download='resume'>resume</a>!
                             <span role='img' aria-label='manuscript'>📜</span></h3>
                     </p>
                 </div>
